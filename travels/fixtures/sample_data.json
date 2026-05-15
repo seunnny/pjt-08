@@ -1,0 +1,56 @@
+[
+  {
+    "model": "travels.place",
+    "pk": 1,
+    "fields": {
+      "name": "Seoul Forest",
+      "address": "Seoul Seongdong-gu",
+      "description": "Large public park near Seoul Forest Station.",
+      "accessibility_info": "wheelchair access, ramp, elevator nearby",
+      "latitude": "37.544388",
+      "longitude": "127.037442",
+      "created_at": "2026-05-15T00:00:00Z",
+      "updated_at": "2026-05-15T00:00:00Z"
+    }
+  },
+  {
+    "model": "travels.place",
+    "pk": 2,
+    "fields": {
+      "name": "Busan Museum of Art",
+      "address": "Busan Haeundae-gu",
+      "description": "Museum with indoor exhibition halls.",
+      "accessibility_info": "elevator, accessible restroom, wheelchair route",
+      "latitude": "35.168889",
+      "longitude": "129.137500",
+      "created_at": "2026-05-15T00:00:00Z",
+      "updated_at": "2026-05-15T00:00:00Z"
+    }
+  },
+  {
+    "model": "travels.review",
+    "pk": 1,
+    "fields": {
+      "place": 1,
+      "title": "Easy route",
+      "content": "The paths were wide and the entrance ramp was easy to use.",
+      "accessibility_keywords": "wheelchair, ramp",
+      "rating": 5,
+      "created_at": "2026-05-15T00:00:00Z",
+      "updated_at": "2026-05-15T00:00:00Z"
+    }
+  },
+  {
+    "model": "travels.review",
+    "pk": 2,
+    "fields": {
+      "place": 2,
+      "title": "Good indoor access",
+      "content": "The elevator and accessible restroom were easy to find.",
+      "accessibility_keywords": "elevator, restroom",
+      "rating": 4,
+      "created_at": "2026-05-15T00:00:00Z",
+      "updated_at": "2026-05-15T00:00:00Z"
+    }
+  }
+]
